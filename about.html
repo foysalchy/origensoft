@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Section</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/js/all.min.js"></script>
+
+</head>
+<body>
+  <div class="min-h-screen bg-gradient-to-r from-blue-50 to-pink-50">
+    <header class="container mx-auto py-4">
+      <nav class="flex items-center justify-between ">
+        <div class="flex items-center space-x-4">
+         
+               <a href="/">  <img src="logo.png" alt="" width="200px" style="border-radius: 5px;"></a>
+        </div>
+        <div class="hidden md:flex items-center space-x-6 mobile-menu">
+          <a href="/" class="inline-flex items-center text-gray-700 hover:text-[#ff5d31]">Home</a>
+          <a href="#product" class="inline-flex items-center text-gray-700 hover:text-[#ff5d31]">Products</a>
+          <a href="#service" class="inline-flex items-center text-gray-700 hover:text-[#ff5d31]">Services</a>
+          <a href="#about" class="inline-flex items-center text-gray-700 hover:text-[#ff5d31]">About Us</a>
+          <button class="bg-[#ff5d31] hover:bg-[#005c42] text-white px-4 py-2 rounded">Contact Us</button>
+        </div>
+        <button class="md:hidden text-gray-800" id="menuToggle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </nav>
+    </header>
+
+    <main class="container mx-auto ">
+     <section id="about" class="about  mt-12 py-12">
+          <div class="container mx-auto">
+            <div class="text-center max-w-4xl mx-auto">
+              <h2 class="      text-3xl md:text-4xl lg:text-5xl font-bold
+        mb-4">
+                About   <span class="text-pr animate-text">OrigenSoft</span>
+              </h2>
+              <p class="text-xl mb-8 text-gray-600">
+                OrigenSoft. has a global reputation for up to scratch customer experience which marks us as one of the best software development companies in the world.
+              </p>
+            </div>
+          </div>
+          <div class="container mx-auto" data-aos="fade-up">
+              
+             
+      
+              <div class="  gap-8 mt-8">
+                
+      
+                  <div class="  content order-last lg:order-first">
+                      <p class="text-lg">
+                         OrigenSoft Is A Reputed Software Company in Dhaka, Bangladesh. OrigenSoft has established itself as a reputable and innovative software company at the intersection of technology, security, and creativity. With a mission to bring cutting-edge solutions to the forefront, OrigenSoft has become a dynamic force in the realms of Cyber Security, Software Development, Web Development, E-commerce Development, and UI/UX Design. 
+                     <p class="text-lg mt-5">
+                         Our commitment to excellence is reflected in the comprehensive range of services we offer. In the ever-evolving landscape of technology, we specialize in Web Development and Software Development, ensuring that your digital presence is not only functional but also tailored to meet the unique needs of your business. Our dedicated team of experts employs the latest technologies and industry best practices to deliver solutions that are both robust and scalable. 
+                     </p>
+                         <ul class="mt-6 space-y-4">
+                          <li class="flex items-start space-x-4" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fa-regular fa-snowflake ci"></i>
+                              <div>
+                                  <h5 class="text-lg font-semibold">Our Mission</h5>
+                                  <p class="text-sm">We aspire to be a prime performer in web based solution through technology leadership and innovation in the competitive global market place.</p>
+                              </div>
+                          </li>
+                          <li class="flex items-start space-x-4" data-aos="fade-up" data-aos-delay="200">
+                                <i class="fa-regular fa-snowflake ci"></i>
+                              <div>
+                                  <h5 class="text-lg font-semibold">Our Vision</h5>
+                                  <p class="text-sm">To enhance upward growth curve of our associated clients by guiding them with best creative design, up-to-date development to deliver their best service to their customers around the world and consistent competitive advantage over their competitors. </p>
+                              </div>
+                          </li>
+                          <li class="flex items-start space-x-4" data-aos="fade-up" data-aos-delay="300">
+                            <i class="fa-regular fa-snowflake ci"></i>
+                              <div>
+                                  <h5 class="text-lg font-semibold">Our Value</h5>
+                                  <p class="text-sm">Our strength is our Technical Expertise, Adaptability, Quality Assurance, Strong Partnerships, Innovation, Project Management, Reputation and Client Base </p>
+                              </div>
+                          </li>
+                         
+                      </ul>
+                  </div>
+              </div>
+              
+          </div>
+      </section><!-- End About Us Section -->
+
+
+    </main>
+    <footer id="footer" class="d-none footer  py-8">
+      <div class="container  mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          
+          <!-- Footer Info -->
+          <div class="col-span-1">
+            <a href="/" class="flex items-center">
+              <img src="logo.png" width="170px" alt="OrigenSoft Logo" />
+            </a>
+            <p class="mt-4 text-sm">OrigenSoft -A Reputation Software Company in Bangladesh .We Provide Web & Software Development, E-commerce solution & SEO Services..</p>
+            <div class="social-links mt-4 flex space-x-4">
+              <a href="https://wa.me/+8801604000276" class="text-white hover:text-teal-500">
+                <i class="bi bi-whatsapp text-xl"></i>
+              </a>
+              <a href="https://www.facebook.com/OrigenSoftbd" class="text-white hover:text-teal-500">
+                <i class="bi bi-facebook text-xl"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/96168164/" class="text-white hover:text-teal-500">
+                <i class="bi bi-linkedin text-xl"></i>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Useful Links -->
+          <div class="col-span-1">
+            <h4 class="text-lg font-semibold">Useful Links</h4>
+            <ul class="mt-4 space-y-2">
+              <li><a href="/" class="hover:text-teal-500">Home</a></li>
+              <li><a href="about.html" class="hover:text-teal-500">About</a></li>
+              <li><a href="service-policy.html" class="hover:text-teal-500">Service Policy</a></li>
+              <li><a href="privacy-policy.html" class="hover:text-teal-500">Privacy Policy</a></li>
+            </ul>
+          </div>
+    
+          <!-- Our Services -->
+          <div class="col-span-1">
+            <h4 class="text-lg font-semibold">Our Services</h4>
+            <ul class="mt-4 space-y-2">
+              <li><a href="#" class="hover:text-teal-500">Software Development</a></li>
+              <li><a href="#" class="hover:text-teal-500">Web Development</a></li>
+              <li><a href="#" class="hover:text-teal-500">App Development</a></li>
+              <li><a href="#" class="hover:text-teal-500">E-commerce Development</a></li>
+              <li><a href="#" class="hover:text-teal-500">Search Engine Optimization </a></li>
+              <li><a href="#" class="hover:text-teal-500">UI/UX Design</a></li>
+            </ul>
+          </div>
+    
+          <!-- Contact Us -->
+          <div class="col-span-1 footer-contact">
+            <h4 class="text-lg font-semibold">Contact Us</h4>
+            <p class="mt-4"><strong><i class="fas fa-location"></i></strong> 802/2 West Kazipara, Dhaka, Bangladesh, 1212</p>
+            <p class="mt-2"><strong><i class="fas fa-phone"></i></strong> +8801604000276 <br> +8801864411645</p>
+            <p class="mt-2"><strong><i class="fas fa-envelope"></i></strong> OrigenSoft@gmail.com <br> contact@origensoft.com</p>
+          </div>
+          
+        </div>
+      </div>
+    
+      <!-- Copyright -->
+      <div class="container mx-auto mt-8 text-center">
+        <div class="text-sm text-gray-400">
+          © Copyright <strong><span>OrigenSoft</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+
