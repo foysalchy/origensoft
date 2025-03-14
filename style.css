@@ -15,13 +15,7 @@ body {
      width:90% !important
 }
 .animate-text {
-	background-image: linear-gradient(
-          -225deg,
-          #f15029 0%,
-          #f15029 29%,
-          #103c54 67%,
-          #fff800 100%
-      );
+	background-image: linear-gradient(-225deg, #ff004c 0%, #ff004c 29%, #000 67%, #ff7f00 100%);
 	background-size: auto auto;
 	background-clip: border-box;
 	background-size: 200% auto;
@@ -39,11 +33,11 @@ body {
 	}
 }
 .bg-pr,.bg-indigo-500{
-     background: #ff5d31 !important;
-     background-color: #ff5d31 !important;
+     background: #ff004c !important;
+     background-color: #ff004c !important;
 }
 .text-pr{
-     color: #ff5d31;
+     color: #ff004c;
 }
 .iconbg {
      font-size: 31px;
@@ -52,17 +46,20 @@ body {
      margin-right: 10px;
      background: #f1fffa81 !important;
    }
+   .bg-gray-900 .iconbg {
+     background: #a5a5a554 !important
+   }
    .tech{
      background: white;
-     padding: 20px;
-     border-radius: 50%;
+     padding: 10px;
+     border-radius: 5px;
      margin: auto;
      width: 120px !important;
    }
    .ci{
      flex-shrink: 0;
      font-size: 30px;
-     color: #ff5d31;
+     color: #ff004c;
      margin-right: 20px;
      line-height: 0;
      backdrop-filter: blur(20px);
@@ -73,13 +70,17 @@ body {
      font-weight: 700;
    }
    .footer {
+     background-image: url('assets/img/footer_bg.png');
      font-size: 15px;
      padding: 50px !important;
+     padding-top: 100px !important;
      color: blur(20px);
-     backdrop-filter: linear-gradient(to right bottom, #ffffff, #fcfcfe, #f9f9fc, #f6f7fb, #f3f4fa, #f1f4fb, #eef5fc, #ebf5fc, #eaf8fc, #ecfbfa, #f0fdf8, #f6fff6) !important;
-     background: linear-gradient(to right bottom, #ffffff, #fcfcfe, #f9f9fc, #f6f7fb, #f3f4fa, #f1f4fb, #eef5fc, #ebf5fc, #eaf8fc, #ecfbfa, #f0fdf8, #f6fff6);
-     padding: 50px !important;
+     background-color: #1a1a1a;
+   
      margin-top: 45px;
+   }
+   .footer  *{
+     color:white !important
    }
    
 @media(max-width:767px){
@@ -123,7 +124,7 @@ body {
      align-items: center;
 }
 .footer-contact p strong {
-     background: #ff5d31;
+     background: #ff004c;
      color: white;
      padding: 6px;
      border-radius: 2px;
@@ -132,3 +133,17 @@ body {
    .order-last li{
      margin: 15px 0px;
    }
+
+   .cardtech{
+     border-bottom: none;
+     -webkit-clip-path: polygon(0 0,89% 0,100% 100%,100% 100%,0 100%,0 100%);
+     clip-path: polygon(0 0,89% 0,100% 100%,100% 100%,0 100%,0 100%);
+   }
+   .cardbody{
+     border-top-left-radius: 0px !important;
+     border: 2px solid #ff004c;
+     margin-top: -1px;
+   }
+  .logo{
+    width: 140px;
+  }
